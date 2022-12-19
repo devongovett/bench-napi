@@ -1,0 +1,17 @@
+{
+  "name": "bench-napi",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0",
+    "node-gyp": "^9.3.0",
+    "node-gyp-build": "^4.5.0"
+  },
+  "binary": {
+    "napi_versions": [
+      3
+    ]
+  }
+}
